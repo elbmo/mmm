@@ -1,0 +1,39 @@
+/* mobile */
+h1 {
+    color: red;
+}
+
+
+/* tablet */
+@media screen and (min-width: 450px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 900px) {
+    h1 {
+        color: green;
+    }
+}
+
+ul{
+    background-color: rgb(0, 0, 0);
+}
+
+
+li{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
