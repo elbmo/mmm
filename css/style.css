@@ -1,31 +1,30 @@
 /* mobile */
 h1 {
-  color: red;
-}
-
-/* tablet */
-@media screen and (min-width: 450px) {
-  h1 {
-    color: blue;
+    color: red;
   }
-}
-
-
-@media screen and (min-width: 400px){
+  
+  /* tablet */
+  @media screen and (min-width: 450px) and (max-width: 899px) {
     h1 {
-        color: brown;
+      color: blue;
     }
-}
-
-/* desktop */
-@media screen and (min-width: 900px) {
-  h1 {
-    color: green;
-    
   }
-}
-
-ul {
+  
+  /* larger tablets */
+  @media screen and (min-width: 400px) and (max-width: 449px) {
+    h1 {
+      color: brown;
+    }
+  }
+  
+  /* desktop */
+  @media screen and (min-width: 900px) {
+    h1 {
+      color: green;
+    }
+  }
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,3 +47,4 @@ ul {
   li a:hover {
     background-color: #111;
   }
+  
