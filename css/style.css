@@ -9,9 +9,6 @@ ul {
   li {
     float: left;
     color: rgb(197, 132, 132); 
-  }
-  
-  li {
     display: block;
     color: white;
     text-align: center;
@@ -19,10 +16,23 @@ ul {
     text-decoration: none;
   }
   
+img{
+    filter: invert();
+}
+
   li hover {
     background-color: #111;
   }
   
+img{
+    display: block;
+}
+
+  li {
+      color: rgb(228, 158, 168);
+      img {display: none;}
+    }
+
   @media screen and (min-width: 450px) {
     li {
       color: rgb(173, 173, 238);
