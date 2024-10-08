@@ -1,30 +1,4 @@
-/* mobile */
-h1 {
-    color: red;
-  }
-  
-  /* tablet */
-  @media screen and (min-width: 450px) and (max-width: 899px) {
-    h1 {
-      color: blue;
-    }
-  }
-  
-  /* larger tablets */
-  @media screen and (min-width: 400px) and (max-width: 449px) {
-    h1 {
-      color: brown;
-    }
-  }
-  
-  /* desktop */
-  @media screen and (min-width: 900px) {
-    h1 {
-      color: green;
-    }
-  }
-  
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,17 +8,30 @@ h1 {
   
   li {
     float: left;
+    color: rgb(197, 132, 132); 
   }
   
-  li a {
+  li {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
   }
   
-  li a:hover {
+  li hover {
     background-color: #111;
+  }
+  
+  @media screen and (min-width: 450px) {
+    li {
+      color: rgb(173, 173, 238);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    li {
+      color: rgb(135, 199, 135);
+    }
   }
   
